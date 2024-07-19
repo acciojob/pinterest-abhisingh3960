@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.hero{
+	display:inline;
+	justify-content:center;
+	 position: relative;
+	display:flex;
+	flex-wrap:wrap;
+}
+img{
+	object-fit:cover;
+	width:50%;
+	height:200px;
+	padding:10px;
+	
+}
+h3{
+	display:inline;
+	
+}
+p{
+	display:inline;
+}
+button{
+	display:inline;
+	background-color:red;
+	padding:10px;
+	color:white;
+	border-radius:5px;
+}
