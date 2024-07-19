@@ -1,10 +1,14 @@
 /*  your css code here. If applicable */
-.hero{
-	display:inline;
-	justify-content:center;
-	 position: relative;
-	display:flex;
-	flex-wrap:wrap;
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.hero-content {
+    display: inline-block;
 }
 img{
 	object-fit:cover;
@@ -14,14 +18,13 @@ img{
 	
 }
 h3{
-	display:inline;
+	display:inline-block;
 	
 }
 p{
-	display:inline;
+	display:inline-block;
 }
 button{
-	display:inline;
 	background-color:red;
 	padding:10px;
 	color:white;
